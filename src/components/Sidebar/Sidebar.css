@@ -1,0 +1,11 @@
+.sidebar {
+    flex: 0.14;
+}
+
+.sidebar__top {
+    padding-bottom: 4px;
+}
+
+.sidebar__bottom {
+    padding-top: 2px;
+}

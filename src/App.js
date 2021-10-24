@@ -4,16 +4,22 @@ import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
 import RecVideos from './components/RecVideos/RecVideos';
 import SearchPage from './components/SearchPage/SearchPage';
+import VideoPlayer from './components/VideoPlayer/VideoPlayer';
+
 
 
 function App() {
-
 
   return (
     <div className="app">
       <Router>
         <Header />
         <Switch>
+        <Route path="/video/:videoId">
+            <div className="app__main">
+              <VideoPlayer />
+            </div>
+          </Route>
         <Route path="/search/:searchQuery">
             <div className="app__main">
               <Sidebar />

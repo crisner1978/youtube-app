@@ -4,6 +4,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import VideoCallOutlinedIcon from "@mui/icons-material/VideoCallOutlined";
 import AppsIcon from "@mui/icons-material/Apps";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+import WhatsHotIcon from "@mui/icons-material/Whatshot"
 import Avatar from "@mui/material/Avatar";
 import { Link } from "react-router-dom";
 import "./Header.css";
@@ -28,6 +29,7 @@ const Header = () => {
         <input
           type="text"
           value={input}
+          placeholder="Search"
           onChange={(e) => setInput(e.target.value)}
         />
         <Link className="header__link" to={`/search/${input}`}>
@@ -39,7 +41,7 @@ const Header = () => {
         <VideoCallOutlinedIcon className="header__icon" />
         <AppsIcon className="header__icon" />
         <NotificationsNoneIcon className="header__icon" />
-        <Avatar src="https://avatars.githubusercontent.com/u/87502003?v=4" />
+        <Avatar className="header__avatar" src="https://avatars.githubusercontent.com/u/87502003?v=4" />
       </div>
     </div>
   );

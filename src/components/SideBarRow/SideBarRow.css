@@ -1,12 +1,12 @@
 .sidebarrow {
     display: flex;
     align-items: center;
-    padding: 0px 20px 0px 20px;
+    padding: 10px 20px;
 }
 
 .sidebarrow__icon {
     color: #606060;
-    font-size: 50px;
+    font-size: large;
 }
 
 .sidebarrow__title {

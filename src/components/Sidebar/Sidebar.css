@@ -1,11 +1,12 @@
 .sidebar {
-    flex: 0.14;
+    flex: 0.2;
 }
 
-.sidebar__top {
-    padding-bottom: 4px;
+.sidebar > hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.sidebar__bottom {
-    padding-top: 2px;
-}

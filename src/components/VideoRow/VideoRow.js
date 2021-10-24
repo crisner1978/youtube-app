@@ -7,7 +7,7 @@ const VideoRow = ({ views, description, timestamp, channel, title, image }) => {
             <div className="videorow__text">
                 <h3>{title}</h3>
                 <p className="videorow__headline">
-                    {channel} • {views} • {timestamp}
+                    {channel} • {views} views • {timestamp}
                 </p>
                 <p className="videorow__description">
                     {description}

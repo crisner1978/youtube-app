@@ -7,6 +7,7 @@ import HistoryIcon from "@mui/icons-material/History";
 import OndemandVideoIcon from "@mui/icons-material/OndemandVideo";
 import WatchLaterOutlinedIcon from "@mui/icons-material/WatchLaterOutlined";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import "./Sidebar.css";
 
 const Sidebar = () => {
@@ -24,6 +25,7 @@ const Sidebar = () => {
         <SideBarRow Icon={OndemandVideoIcon} title="Your videos" />
         <SideBarRow Icon={WatchLaterOutlinedIcon} title="Watch later" />
         <SideBarRow Icon={ThumbUpOffAltIcon} title="Liked videos" />
+        <SideBarRow Icon={ExpandMoreIcon} title="Show more" />
       </div>
       <hr />
     </div>
